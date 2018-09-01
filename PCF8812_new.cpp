@@ -1,7 +1,7 @@
 #include <inttypes.h>
 #if defined(__AVR__)
 # include <util/delay.h>
-#include <wiring.h>
+#include <wiring_private.h>
 #endif
 #if ARDUINO >= 100
 # include "Arduino.h"
@@ -117,7 +117,8 @@ uint8_t LcdPageTWO(void)
 	     for(p = 0; p < X_RES; p++){
 		    Lcd_page[p][b] = 0b00000000;        //отчищаем массив
 	    }		
-*/	}
+	}
+  */
 	page--;
 	return page;
 }
