@@ -5,7 +5,7 @@
 #define FONT_5x5_H
 
 //*************************//шрифт 5x8 в програмной памяти*****************  
-static prog_uint8_t font_5x5[] PROGMEM= 
+static const uint8_t font_5x5[] PROGMEM= 
 {
 	0x07, // 7  - кол-во байт параметров
 	0x08, // 16 - разрядность

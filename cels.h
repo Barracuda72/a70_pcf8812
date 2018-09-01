@@ -1,7 +1,7 @@
 #ifndef CELS_H
 #define CELS_H
 
-static prog_uint8_t cels[] PROGMEM = {   
+static const uint8_t cels[] PROGMEM = {   
   32,       // Ширина
   32,       // Высота                                   
   0x00, 0xF0, 0xF8, 0x1C, 0x0E, 0x0E, 0x0E, 0x0E,

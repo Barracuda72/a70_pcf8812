@@ -2,7 +2,7 @@
 #define SHARK_H
 
 
-static prog_uint8_t shark[] PROGMEM =
+static const uint8_t shark[] PROGMEM =
 { 76, 64,
    0x00, 0x00, 0x00, 0x00,
    0x00, 0x00, 0x00, 0x00,

@@ -1,7 +1,7 @@
 #ifndef SHIP_H
 #define SHIP_H
 
-static prog_uint8_t ship[] PROGMEM = {   
+static const uint8_t ship[] PROGMEM = {   
   84,       // Ширина
   48,       // Высота                                   
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
